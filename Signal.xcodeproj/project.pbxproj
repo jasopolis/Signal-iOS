@@ -669,8 +669,8 @@
 		2271BEF829149BA200F8EA7E /* update-pin-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 346EFC3925FFDC6900F493C7 /* update-pin-dark.json */; };
 		2271BEF929149BA200F8EA7E /* update-pin.json in Resources */ = {isa = PBXBuildFile; fileRef = 346EFC3A25FFDC6A00F493C7 /* update-pin.json */; };
 		2271BEFA29149BA200F8EA7E /* waveformLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = 88BFD4722335C2B3001797D7 /* waveformLoading.json */; };
-		2271BEFD29149BA200F8EA7E /* SignalNSE.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 342FFE8827245850000AC89F /* SignalNSE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2271BEFE29149BA200F8EA7E /* SignalShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 453518681FC635DD00210559 /* SignalShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2271BEFD29149BA200F8EA7E /* SignalNSE.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 342FFE8827245850000AC89F /* SignalNSE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2271BEFE29149BA200F8EA7E /* SignalShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 453518681FC635DD00210559 /* SignalShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2271BF0029149BA200F8EA7E /* SignalMessaging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 453518921FC63DBF00210559 /* SignalMessaging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2271BF0129149BA200F8EA7E /* SignalServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F9C5C897289451B900548EEE /* SignalServiceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2271BF0229149BA200F8EA7E /* SignalUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34A954A8271A471200B05242 /* SignalUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -888,7 +888,7 @@
 		342FFE7E271EF5B2000AC89F /* ReturnToCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE7D271EF5B1000AC89F /* ReturnToCallViewController.swift */; };
 		342FFE832721D4B6000AC89F /* ContactsManagerCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE822721D4B6000AC89F /* ContactsManagerCache.swift */; };
 		342FFE8B27245850000AC89F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE8A27245850000AC89F /* NotificationService.swift */; };
-		342FFE8F27245851000AC89F /* SignalNSE.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 342FFE8827245850000AC89F /* SignalNSE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		342FFE8F27245851000AC89F /* SignalNSE.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 342FFE8827245850000AC89F /* SignalNSE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		342FFE98272458AB000AC89F /* NSEEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE95272458A4000AC89F /* NSEEnvironment.swift */; };
 		342FFE99272458AB000AC89F /* NSECallMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE96272458A7000AC89F /* NSECallMessageHandler.swift */; };
 		342FFE9A272458AB000AC89F /* NSEContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342FFE97272458AA000AC89F /* NSEContext.swift */; };
@@ -1263,7 +1263,7 @@
 		452EC6DF205E9E30000E787C /* MediaGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EC6DE205E9E30000E787C /* MediaGallery.swift */; };
 		4535186B1FC635DD00210559 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4535186A1FC635DD00210559 /* ShareViewController.swift */; };
 		4535186E1FC635DD00210559 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4535186C1FC635DD00210559 /* MainInterface.storyboard */; };
-		453518721FC635DD00210559 /* SignalShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 453518681FC635DD00210559 /* SignalShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		453518721FC635DD00210559 /* SignalShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 453518681FC635DD00210559 /* SignalShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		453518961FC63DBF00210559 /* SignalMessaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 453518941FC63DBF00210559 /* SignalMessaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		453518991FC63DBF00210559 /* SignalMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453518921FC63DBF00210559 /* SignalMessaging.framework */; };
 		4535189A1FC63DBF00210559 /* SignalMessaging.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 453518921FC63DBF00210559 /* SignalMessaging.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -2826,16 +2826,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2271BEFC29149BA200F8EA7E /* Embed Foundation Extensions */ = {
+		2271BEFC29149BA200F8EA7E /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2271BEFD29149BA200F8EA7E /* SignalNSE.appex in Embed Foundation Extensions */,
-				2271BEFE29149BA200F8EA7E /* SignalShareExtension.appex in Embed Foundation Extensions */,
+				2271BEFD29149BA200F8EA7E /* SignalNSE.appex in Embed App Extensions */,
+				2271BEFE29149BA200F8EA7E /* SignalShareExtension.appex in Embed App Extensions */,
 			);
-			name = "Embed Foundation Extensions";
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2271BEFF29149BA200F8EA7E /* Embed Frameworks */ = {
@@ -2851,16 +2851,16 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		453518771FC635DD00210559 /* Embed Foundation Extensions */ = {
+		453518771FC635DD00210559 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				342FFE8F27245851000AC89F /* SignalNSE.appex in Embed Foundation Extensions */,
-				453518721FC635DD00210559 /* SignalShareExtension.appex in Embed Foundation Extensions */,
+				342FFE8F27245851000AC89F /* SignalNSE.appex in Embed App Extensions */,
+				453518721FC635DD00210559 /* SignalShareExtension.appex in Embed App Extensions */,
 			);
-			name = "Embed Foundation Extensions";
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4535189F1FC63DBF00210559 /* Embed Frameworks */ = {
@@ -9353,7 +9353,7 @@
 				2271BE9D29149BA200F8EA7E /* Run Script: update_plist_info */,
 				2271BE9E29149BA200F8EA7E /* Resources */,
 				2271BEFB29149BA200F8EA7E /* [CP] Embed Pods Frameworks */,
-				2271BEFC29149BA200F8EA7E /* Embed Foundation Extensions */,
+				2271BEFC29149BA200F8EA7E /* Embed App Extensions */,
 				2271BEFF29149BA200F8EA7E /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -9502,7 +9502,7 @@
 				34C239432180B01B00B6108F /* Run Script: update_plist_info */,
 				D221A087169C9E5E00537ABF /* Resources */,
 				59C9DBA462715B5C999FFB02 /* [CP] Embed Pods Frameworks */,
-				453518771FC635DD00210559 /* Embed Foundation Extensions */,
+				453518771FC635DD00210559 /* Embed App Extensions */,
 				4535189F1FC63DBF00210559 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -9589,7 +9589,7 @@
 				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1340;
 				LastTestingUpgradeCheck = 0600;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Open Whisper Systems";
 				TargetAttributes = {
 					146FFA9F27A7FE87004A2A64 = {
@@ -13591,7 +13591,8 @@
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -13665,7 +13666,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -13742,7 +13744,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -13819,7 +13821,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -14242,7 +14245,9 @@
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -14312,7 +14317,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -14377,7 +14384,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -14658,7 +14664,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -14918,7 +14926,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -15194,7 +15201,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -15324,7 +15333,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -15411,7 +15419,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -15725,7 +15732,8 @@
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -15803,7 +15811,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -15884,7 +15893,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -15965,7 +15974,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
